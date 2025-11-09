@@ -1,0 +1,26 @@
+# Ignore system and temp files
+.DS_Store
+Thumbs.db
+
+# Ignore editor and backup files
+*.swp
+*.bak
+*.tmp
+~$*
+
+# Ignore Python build artifacts (if scripts are added later)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local environment and configuration
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Ignore OS metadata and cache
+*.log
+*.cache/
